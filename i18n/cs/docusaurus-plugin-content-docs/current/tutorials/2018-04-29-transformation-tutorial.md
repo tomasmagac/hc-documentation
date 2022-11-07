@@ -37,9 +37,8 @@ Transformační projekt mapuje data UK Ordnance Survey Open Rivers na typy prvk�
 **Krok 1: Vytvořte transformační projekt**
 
 Nejjednodušší způsob, jak vytvořit transformační projekt na platformě hale»connect, je vyexportovat jej přímo z hale»studio. Hale»studio nabízí uživatelům možnost exportovat transformaci jako projekt hale»connect pomocí průvodce exportem. Průvodce vyžaduje, aby uživatelé zadali přihlašovací údaje hale»connect, které použije pro nahrání transformačního projektu do online účtu přihlášeného uživatele.
-{::nomarkdown}
-<a class="image-news text-center col-xs-12 mt mb"><img src={require("/images/help/cs/Tutorial_Export_wizard.png").default} alt="" title="Export transformačného projektu do hale»connect" class="img-responsive center-block"/>
-</a>
+<img src={require("/images/help/cs/Tutorial_Export_wizard.png").default} alt="" title="Export transformačného projektu do hale»connect" class="img-responsive center-block"/>
+
 
 Máte-li na svém počítači nainstalované hale»studio, můžete načíst transformační projekt s názvem „OpenRivers.halex“, který je součástí dat tutoriálu. Transformační projekt OpenRivers můžete exportovat přímo do svého účtu hale»connect. Potřebujete-li pomoc, navštivte příslušné téma nápovědy hale»studio User Guide [Sdílet a aktualizovat transformační projekt na hale»connect](http://help.halestudio.org/latest/index.jsp?topic=%2Feu.esdihumboldt.hale.doc.user%2Fhtml%2Ftasks%2Fhaleconnect%2Fshareproject.html), kde naleznete další pokyny.
 
@@ -50,7 +49,7 @@ Transformační projekt je projekt [hale»studio](https://www.wetransform.to/pro
 Chcete-li vytvořit nový transformační projekt přímo v hale»connect, aniž byste jej nahráli z hale»studio, využijte tento pracovní postup s přihlášením jako Správce témat nebo Superuživatel:
 
 *	Přejděte na „Transformační projekty“ na hlavním panelu nástrojů
-* Přejděte na „Vytvořit nový transformační projekt “ v dolní části seznamu transformačních projektů <img src="/images/help/en/Tutorial_Transformation_overview.png").default} alt="" title="Vytvoření transformačního projektu" class="img-responsive img-inline-help"/>
+* Přejděte na „Vytvořit nový transformační projekt “ v dolní části seznamu transformačních projektů <img src={require("/images/help/en/Tutorial_Transformation_overview.png").default} alt="" title="Vytvoření transformačního projektu" class="img-responsive img-inline-help"/>
 * Nahrajte soubor OpenRivers.halez, který se nachází ve složce s výukovými daty. Po nahrání uvidíte soubor .halex.styles.sld, soubor .halex.alignment.xml a soubor .halex. V těchto souborech je uložen transformační projekt. <img src="/images/help/en/Tutorial_Upload_project.png").default} alt="" title="Nahrávání transformačního projektu" class="img-responsive img-inline-help"/>
   * Klikněte na &laquo;Vybrat soubor(y)&raquo; a přejděte na soubor(y) projektu.
 
